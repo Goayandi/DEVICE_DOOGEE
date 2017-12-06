@@ -42,9 +42,9 @@ KERNEL_DEFCONFIG ?= X5PRO_6735m_defconfig
 else
 KERNEL_DEFCONFIG ?= X5PRO_6735m_defconfig
 endif
-PRELOADER_TARGET_PRODUCT ?= X5PRO
-LK_PROJECT ?= X5PRO
-TRUSTY_PROJECT ?= X5PRO
+#PRELOADER_TARGET_PRODUCT ?= X5PRO
+#LK_PROJECT ?= X5PRO
+#TRUSTY_PROJECT ?= X5PRO
 #A-GO
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
