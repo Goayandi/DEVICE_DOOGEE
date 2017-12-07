@@ -197,3 +197,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.medium=700 \
     ro.lmk.critical_upgrade=true
 
+include vendor/DOOGEE/prebuilds.mk
