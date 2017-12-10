@@ -48,3 +48,6 @@ endif
 #A-GO
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
+
+include $(LOCAL_PATH)/twrp.mk
+
