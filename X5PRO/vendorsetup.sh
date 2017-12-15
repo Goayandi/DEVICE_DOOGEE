@@ -17,3 +17,4 @@
 add_lunch_combo full_X5PRO-eng
 add_lunch_combo full_X5PRO-userdebug
 add_lunch_combo full_X5PRO-user
+
